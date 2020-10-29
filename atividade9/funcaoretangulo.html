@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Função Retangulo</title>
+			
+	</head>
+	<body>
+		<script>
+		class Retangulo{
+			constructor(x,y){
+				this.base = x;
+				this.altura = y;
+			}
+
+			calcArea(){
+				return this.base * this.altura;
+			}
+		} 
+
+		var x = parseFloat(prompt("Informe a Base: "));
+		var y = parseFloat(prompt("Informe a Altura: "));
+
+		var r = new Retangulo(x, y);
+
+		alert("Area = " + r.calcArea());
+		</script>
+	</body>
+</html>
