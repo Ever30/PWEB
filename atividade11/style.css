@@ -1,0 +1,53 @@
+corpo {
+ imagem de fundo : url ( "../imagens/palestrante.jpg" );
+ cor de fundo : # cccccc ;
+}
+
+form {
+    família da fonte : Verdana , Tahoma , sans-serif;
+    tamanho da fonte : 15 px ;
+    cor de fundo : # 192150 ;
+    largura máxima : 400 px ;
+    posição : absoluta;
+    topo : 50 % ;
+    esquerda : 50 % ;
+    transform : translateY ( -50 % ) translateX ( -50 % );
+}
+
+h2 {
+    alinhamento de texto : centro;
+    fonte : 75 % / 125 %  "Comic Sans MS" , cursiva;
+    tamanho da fonte : 1,5 em ;
+    cor : # 818181 ;
+}
+
+entrada ,  selecione {
+    largura : 180 px ;
+    preenchimento : 10 px ;
+    cor : preto;
+    margem esquerda : 20 px ;
+    margem superior : 10 px ;
+    -webkit-border-radius : 5 px ;
+    -moz-border-radius : 5 px ;
+    borda : 1 px sólido;
+}
+
+input : hover , input : focus ,  select {
+    border-color : # 000066 ;
+    sombra da caixa : 5 px  0 px  9 px  # FFFF00 ;
+    cor de fundo : # 66FFFF ;
+    cor : preto;
+    peso da fonte : negrito;
+}
+
+
+form  label {
+    margem esquerda : 30 px ;
+    cor : # FFFFFF ;
+    peso da fonte : negrito;
+}
+
+div > botão {
+    margem esquerda : 200 px ;
+    cor : vermelho;
+}
